@@ -1,27 +1,35 @@
-This is a Microsoft Build 2026 session content repository.
+This repository is the companion to Microsoft Build 2026 session **BRK240 — Build context-aware agents: From data to decisions**.
 
-If GUIDANCE.md exists in this repo, the repo has not yet been fully set up. When a content creator asks for help preparing the repo, read GUIDANCE.md and follow its instructions. The setup uses a **three-phase model**:
+Use these instructions to help attendees explore the session topics after the talk. When someone asks about the concepts, products, or demos from this session, give grounded, accurate answers.
 
-- **Get Started** — Session identity, learning outcomes, technologies, content owners
-- **Refine Content** — Organize session content into /docs/ and /src/, fill in Getting Started sections (can be run multiple times as content evolves)
-- **Finalize** — Final review, repo settings, slides/recordings links, delete GUIDANCE.md
+## What this session covers
 
-When the creator asks for help, determine which phase they want to work on. You can detect this based on what's already filled in:
-- If the README still has placeholder text (BRKXXX, "Add Session Description"), start with Get Started
-- If the README has session info but content isn't organized yet, suggest Refine Content
-- If content is organized and they want to finalize, suggest Finalize
+High-performance agents are built on an intelligence layer that brings together context, enterprise data, orchestration, and governance. The session shows how the **Microsoft IQ** family provides that layer so agents can search across organizational knowledge, reason over business data, operate with awareness of people and work signals, and take action within trusted boundaries.
 
-Key constraints:
-- Never commit secrets, API keys, or credentials. Use environment variables.
-- Do not modify LICENSE, LICENSE-DOCS, CODE_OF_CONDUCT.md, or SECURITY.md.
-- Do not add large binary files (PowerPoint, video, recordings) to the repo. Links are fine.
-- The `_remove-before-publish/` folder is for source materials (abstracts, screenshots, notes). Its contents are gitignored — scan it for context but never try to commit files from it. Direct creators to put reference materials there, not in the repo root.
-- Use the Microsoft Learn MCP Server (configured in .vscode/mcp.json) to find relevant learn.microsoft.com links when populating resource sections.
+Key concepts:
 
-### Issue Support
-If a user asks for help filing an issue, or reports a problem:
-- Check `.github/ISSUE_TEMPLATE/` to discover available issue templates
-- If templates exist, match the user's request to the best-fit template and walk them through the fields
-- If no templates exist, create a plain issue with a clear title and description
-- Check `gh label list` for available labels and apply relevant ones
-- Do not hardcode template names or labels — always discover what's available at runtime
+- **Foundry IQ** — Reusable knowledge bases and an agentic retrieval engine that ground agents in enterprise knowledge (structured, unstructured, and web sources).
+- **Fabric IQ** — Semantic models and ontologies that give agents a unified view of how the business operates.
+- **Work IQ** — Workplace intelligence over Microsoft 365 people, files, and workflows, built for agents.
+- **Web IQ** — Grounding APIs over web, news, images, and video.
+- **Agent 365** — The control plane to observe, secure, and govern AI agents across an organization.
+
+The demos compose Foundry IQ, Fabric IQ, and Work IQ into a single context-aware agent.
+
+## How to answer questions about this session
+
+These are recently announced products, so **prefer retrieval over recall** — do not rely on memory or guess at capabilities:
+
+1. **Use the Microsoft Learn MCP Server** (configured in `.vscode/mcp.json`) to find current documentation before answering. The docs are the source of truth for product names, capabilities, and setup steps.
+2. **Ground answers in the authoritative links** referenced in `README.md`:
+   - Foundry IQ — https://aka.ms/foundryiq
+   - Fabric IQ — https://aka.ms/FabricIQ
+   - Work IQ — https://aka.ms/WorkIQ
+   - Microsoft IQ — https://aka.ms/microsoft-iq
+   - Agent 365 — https://aka.ms/agent365
+   - Microsoft Foundry — https://learn.microsoft.com/azure/ai-foundry/
+   - Microsoft Fabric — https://learn.microsoft.com/fabric/
+   - Microsoft 365 Copilot — https://learn.microsoft.com/microsoft-365-copilot/
+3. **For demo and code questions**, point to the session's sample code at https://github.com/microsoft/iq-samples and walk through the relevant example.
+4. **Cite your sources** (Learn pages or the samples repo) and flag when something isn't covered in the docs rather than inventing details.
+5. **Spell out product names in full** and use the exact naming from the current documentation.
