@@ -96,6 +96,15 @@ The Microsoft Learn MCP Server gives your AI agent direct access to Microsoft's 
 
 For more info, other clients, and to post questions, visit the [Learn MCP Server repo](https://aka.ms/learnmcp).
 
+### 🧪 Hands-on Lab
+
+Want to go deeper with a guided, self-paced walkthrough? **[Build Lab 532 — From Data to Context: Agent-Ready Knowledge with Foundry IQ](https://github.com/microsoft/Build26-LAB532)** takes you from raw data to a grounded, agent-ready knowledge base step by step.
+
+| Resource | Description |
+|:---------|:------------|
+| [Build Lab 532](https://github.com/microsoft/Build26-LAB532) | The full hands-on lab |
+| [Self-deployment guide](https://github.com/microsoft/Build26-LAB532-from-data-to-context-agent-ready-knowledge-with-foundry-iq/blob/main/deploy_yourself.md) | Deploy and run the lab yourself, at your own pace |
+
 ## Content Owners
 
 <!-- Content owners for this session. -->
